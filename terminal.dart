@@ -1,4 +1,53 @@
-Skip to content
+
+
+git version 2.43.2
+Temporarily overriding HOME='/home/runner/work/_temp/a9da2d7a-19ed-40be-9cae-04fed7b63fdc' before making global git config changes
+Adding repository directory to the tempora
+git version 2.43.2
+Temporarily overriding HOME='/home/runner/work/_temp/a9da2d7a-19ed-40be-9cae-04fed7b63fdc' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/website-v2/website-v2
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive sh -c "git config --
+git version 2.43.2
+Temporarily overriding HOME='/home/runner/work/_temp/a9da2d7a-19ed-40be-9cae-04fed7b63fdc' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/website-v2/website-v2
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+git version 2.43.2
+Temporarily overriding HOME='/home/runner/work/_temp/a9da2d7a-19ed-40be-9cae-04fed7b63fdc' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/website-v2/website-v2
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+0s
+Cleaning up orphan processes
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+0s
+Cleaning up orphan processeslocal --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+0s
+Cleaning up orphan processesry git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/website-v2/website-v2
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+0s
+Cleaning up orphan processesSkip to content
 480132
 /
 website-v2
@@ -18,7 +67,7 @@ Create jekyll-gh-pages.yml #1
 Jobs
 Run details
 build
-succeeded now in 41s
+succeeded 1 minute ago in 41s
 Beta
 Give feedback
 Search logs
@@ -58,6 +107,15 @@ Search logs
   ./LICENSE
   ./404.html
 Run actions/upload-artifact@v4
+  with:
+    name: github-pages
+    path: /home/runner/work/_temp/artifact.tar
+    retention-days: 1
+    if-no-files-found: error
+    compression-level: 6
+    overwrite: false
+  env:
+    GITHUB_PAGES: true
 With the provided path, there will be 1 file uploaded
 Artifact name is valid!
 Root directory input is valid!
@@ -93,3 +151,4 @@ http.https://github.com/.extraheader
 /usr/bin/git config --local --unset-all http.https://github.com/.extraheader
 /usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
 0s
+Cleaning up orphan processes
